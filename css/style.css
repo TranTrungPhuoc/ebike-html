@@ -1,0 +1,277 @@
+@import url('header.css');
+.bg-yellowLight{
+    background-color: #fec901;
+}
+.bg-blueLight{
+    background-color: #086e7d;
+}
+.color-blueLight{
+    color: #086e7d;
+}
+.color-yellowLight{
+    color: #fec901;
+}
+.clip-path{
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-35{
+    font-size: 35px;
+}
+.p-10{
+    padding: 10px;
+}
+.font-roboto{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.fa-phone{
+    color: blue;
+    margin-right: 5px;
+}
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+a:hover{
+    transition: 0.75s;
+}
+.menu li a{
+    color: white;
+}
+.menu li a:hover{
+    color: #fec901;
+}
+.shopping a{
+    color: black;
+}
+.shopping a:hover{
+    color: #fec901;
+}
+.border-0:focus{
+    outline: none;
+}
+.service{
+    padding: 50px 0 30px;
+}
+.service .icon{
+    margin-bottom: 20px;
+}
+.service p{
+    font-size: 16px;
+}
+.service h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.bestSeller .box{
+    border: 3px solid #086e7d;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.bestSeller h2{
+    font-size: 22px;
+    margin-top: 15px;
+}
+.p-t-b-20{
+    padding: 20px 0;
+}
+.p-t-b-20:hover {
+    transform: translate3d(0,-5px,0);
+    transition: all .5s;
+}
+.p-t-b-20:hover h2{
+    color: black;
+    transition: 0.75s;
+}
+.bestSeller div{
+    position: relative;
+}
+.bestSeller .title{
+    padding: 10px 30px;
+    font-size: 30px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -80%);
+    font-style: italic;
+}
+.bestSeller .guarantee{
+    position: absolute;
+    right: 0;
+    top: -5%;
+    transform: translate(-50%, -145%);
+    font-size: 27px;
+    font-weight: bold;
+    font-style: italic;
+}
+.details{
+    margin-top: 30px;
+}
+.details .products a{
+    color: #626262;
+    text-decoration: none;
+}
+.details .products:hover{
+    transform: translate3d(0,-5px,0);
+    transition: all .5s;
+}
+.details .products:hover .price{
+    color: red;
+    transition: 0.75s;
+}
+.details .products h3{
+    font-size: 14px;
+}
+.details .products p{
+    font-size: 12px;
+}
+.details .products .price{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.details .products .selled{
+    margin: 10px 0;
+}
+.details .products .selled span{
+    font-size: 20px;
+    padding: 5px 20px 5px 40px;
+    position: relative;
+}
+.details .products .selled span img{
+    position: absolute;
+    left: -20px;
+    top: -20px;
+}
+.more{
+    margin-top: 10px;
+}
+.youtube{
+    margin-top: 30px;
+    color: #086e7d;
+}
+.youtube .box{
+    border: 3px solid #086e7d;
+    border-radius: 20px;
+    padding: 32px 20px;
+    height: 100%;
+}
+.youtube .box h4{
+    font-size: 22px;
+    min-height: 53px;
+}
+.youtube .box .image{
+    margin-bottom: 20px;
+}
+.tutorials, .knowledge{
+    margin-top: 20px;
+}
+.tutorials .video{
+    position: relative;
+}
+.tutorials .title{
+    margin-bottom: 15px;
+}
+.tutorials .title span{
+    padding: 10px 40px 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    border-radius: 5px;
+}
+.tutorials .video .caption{
+    position: absolute;
+    bottom: -18px;
+    color: white;
+    width: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 13px;
+}
+.knowledge .title{
+    margin-bottom: 15px;
+}
+.knowledge .title span{
+    padding: 10px 40px 10px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+    border-radius: 5px;
+}
+.knowledge .products:hover{
+    transform: translate3d(0,-5px,0);
+    transition: all .5s;
+}
+.knowledge .products .image{
+    position: relative;
+}
+.knowledge .products img{
+    border-radius: 5px;
+}
+.knowledge .products h4{
+    font-size: 16px;
+    margin-top: 10px;
+    color: black;
+}
+.knowledge .products span{
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+}
+.knowledge .products:hover h4{
+    color: #086e7d;
+}
+.system{
+    border-top: 2px solid #086e7d;
+    margin-top: 50px;
+    padding-top: 40px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.system .title{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 0;
+}
+.system .title h2{
+    margin-bottom: 0;
+}
+.system .info h5{
+    margin-top: 10px;
+}
+.system .info {
+    border: 1px solid #086e7d;
+    padding: 10px;
+    border-radius: 5px;
+}
+.system .info ul{
+    line-height: 30px;
+}
+footer .top{
+    background-color: #e0e0e0;
+    padding: 30px;
+    margin-top: 30px;
+}
+footer .top a{
+    text-decoration: none;
+    color: #626262;
+}
+footer .top hr{
+    width: 30%;
+}
+footer .top ul{
+    font-size: 14px;
+}
