@@ -27,7 +27,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 .fa-phone{
-    color: blue;
+    color: #086e7d;
     margin-right: 5px;
 }
 ul{
@@ -38,6 +38,15 @@ ul{
 a:hover{
     transition: 0.75s;
 }
+header .form-control:focus{
+    box-shadow: none;
+}
+header .input-group button:hover{
+    color: #086e7d;
+}
+header .input-group button:active{
+    border: none;
+}
 .menu li a{
     color: white;
 }
@@ -45,13 +54,10 @@ a:hover{
     color: #fec901;
 }
 .shopping a{
-    color: black;
+    color: white;
 }
 .shopping a:hover{
     color: #fec901;
-}
-.border-0:focus{
-    outline: none;
 }
 .service{
     padding: 50px 0 30px;
@@ -73,7 +79,7 @@ a:hover{
     margin-top: 50px;
 }
 .bestSeller h2{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 15px;
 }
 .p-t-b-20{
@@ -269,9 +275,23 @@ footer .top a{
     text-decoration: none;
     color: #626262;
 }
+footer .top a:hover{
+    color: #086e7d;
+}
 footer .top hr{
     width: 30%;
 }
-footer .top ul{
+footer .bottom{
+    background: #3c3c3c;
+    color: white;
+    padding: 20px;
+}
+footer .bottom h1{
+    font-size: 25px;
+}
+footer .bottom .image{
+    margin-top: 10px;
+}
+footer .bottom ul li{
     font-size: 14px;
 }
