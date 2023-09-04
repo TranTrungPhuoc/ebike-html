@@ -1,102 +1,132 @@
 @import url('header.css');
-.bg-yellowLight{
+
+.bg-yellowLight {
     background-color: #fec901;
 }
-.bg-blueLight{
+
+.bg-blueLight {
     background-color: #086e7d;
 }
-.color-blueLight{
+
+.color-blueLight {
     color: #086e7d;
 }
-.color-yellowLight{
+
+.color-yellowLight {
     color: #fec901;
 }
-.clip-path{
+
+.clip-path {
     clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0% 100%);
 }
-.font-size-20{
+
+.font-size-20 {
     font-size: 20px;
 }
-.font-size-35{
+
+.font-size-35 {
     font-size: 35px;
 }
-.p-10{
+
+.p-10 {
     padding: 10px;
 }
-.font-roboto{
+
+.font-roboto {
     font-family: 'Roboto Condensed', sans-serif;
 }
-.fa-phone{
+
+.fa-phone {
     color: #086e7d;
     margin-right: 5px;
 }
-ul{
+
+ul {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
 }
-a:hover{
+
+a:hover {
     transition: 0.75s;
 }
-header .form-control:focus{
+
+header .form-control:focus {
     box-shadow: none;
 }
-header .input-group button:hover{
+
+header .input-group button:hover {
     color: #086e7d;
 }
-header .input-group button:active{
+
+header .input-group button:active {
     border: none;
 }
-.menu li a{
+
+.menu li a {
     color: white;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     color: #fec901;
 }
-.shopping a{
+
+.shopping a {
     color: white;
 }
-.shopping a:hover{
+
+.shopping a:hover {
     color: #fec901;
 }
-.service{
+
+.service {
     padding: 50px 0 30px;
 }
-.service .icon{
+
+.service .icon {
     margin-bottom: 20px;
 }
-.service p{
+
+.service p {
     font-size: 16px;
 }
-.service h3{
+
+.service h3 {
     font-size: 18px;
     font-weight: bold;
 }
-.bestSeller .box{
+
+.bestSeller .box {
     border: 3px solid #086e7d;
     border-radius: 20px;
     padding: 20px;
     margin-top: 50px;
 }
-.bestSeller h2{
+
+.bestSeller h2 {
     font-size: 20px;
     margin-top: 15px;
 }
-.p-t-b-20{
+
+.p-t-b-20 {
     padding: 20px 0;
 }
+
 .p-t-b-20:hover {
-    transform: translate3d(0,-5px,0);
+    transform: translate3d(0, -5px, 0);
     transition: all .5s;
 }
-.p-t-b-20:hover h2{
+
+.p-t-b-20:hover h2 {
     color: black;
     transition: 0.75s;
 }
-.bestSeller div{
+
+.bestSeller div {
     position: relative;
 }
-.bestSeller .title{
+
+.bestSeller .title {
     padding: 10px 30px;
     font-size: 30px;
     border-radius: 20px;
@@ -106,7 +136,8 @@ header .input-group button:active{
     transform: translate(-50%, -80%);
     font-style: italic;
 }
-.bestSeller .guarantee{
+
+.bestSeller .guarantee {
     position: absolute;
     right: 0;
     top: -5%;
@@ -115,82 +146,103 @@ header .input-group button:active{
     font-weight: bold;
     font-style: italic;
 }
-.details{
+
+.details {
     margin-top: 30px;
 }
-.details .products a{
+
+.details .products a {
     color: #626262;
     text-decoration: none;
 }
-.details .products:hover{
-    transform: translate3d(0,-5px,0);
+
+.details .products:hover {
+    transform: translate3d(0, -5px, 0);
     transition: all .5s;
 }
-.details .products:hover .price{
+
+.details .products:hover .price {
     color: red;
     transition: 0.75s;
 }
-.details .products h3{
+
+.details .products h3 {
     font-size: 14px;
 }
-.details .products p{
+
+.details .products p {
     font-size: 12px;
 }
-.details .products .price{
+
+.details .products .price {
     font-size: 20px;
     font-weight: bold;
     color: black;
 }
-.details .products .selled{
+
+.details .products .selled {
     margin: 10px 0;
 }
-.details .products .selled span{
+
+.details .products .selled span {
     font-size: 16px;
     padding: 5px 20px 5px 40px;
     position: relative;
 }
-.details .products .selled span img{
+
+.details .products .selled span img {
     position: absolute;
     left: -20px;
     top: -20px;
 }
-.more{
+
+.more {
     margin-top: 10px;
 }
-.youtube{
+
+.youtube {
     margin-top: 30px;
     color: #086e7d;
 }
-.youtube .box{
+
+.youtube .box {
     border: 3px solid #086e7d;
     border-radius: 20px;
     padding: 32px 20px;
     height: 100%;
 }
-.youtube .box h4{
+
+.youtube .box h4 {
     font-size: 22px;
     min-height: 53px;
 }
-.youtube .box .image{
+
+.youtube .box .image {
     margin-bottom: 20px;
 }
-.tutorials, .knowledge{
+
+.tutorials,
+.knowledge {
     margin-top: 20px;
 }
-.tutorials .video{
+
+.tutorials .video {
     position: relative;
 }
-.tutorials .title{
+
+.tutorials .title {
     margin-bottom: 15px;
 }
-.tutorials .title span{
+
+.tutorials .title span {
     padding: 10px 40px 10px 20px;
     font-weight: bold;
     font-size: 20px;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     border-radius: 5px;
 }
-.tutorials .video .caption{
+
+.tutorials .video .caption {
     position: absolute;
     bottom: -18px;
     color: white;
@@ -202,48 +254,58 @@ header .input-group button:active{
     border-top-right-radius: 10px;
     font-size: 13px;
 }
-.knowledge .title{
+
+.knowledge .title {
     margin-bottom: 15px;
 }
-.knowledge .title span{
+
+.knowledge .title span {
     padding: 10px 40px 10px 20px;
     font-weight: bold;
     font-size: 20px;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     border-radius: 5px;
 }
-.knowledge .products:hover{
-    transform: translate3d(0,-5px,0);
+
+.knowledge .products:hover {
+    transform: translate3d(0, -5px, 0);
     transition: all .5s;
 }
-.knowledge .products .image{
+
+.knowledge .products .image {
     position: relative;
 }
-.knowledge .products img{
+
+.knowledge .products img {
     border-radius: 5px;
 }
-.knowledge .products h4{
+
+.knowledge .products h4 {
     font-size: 16px;
     margin-top: 10px;
     color: black;
 }
-.knowledge .products span{
+
+.knowledge .products span {
     color: white;
     padding: 10px;
     position: absolute;
     left: 0;
 }
-.knowledge .products:hover h4{
+
+.knowledge .products:hover h4 {
     color: #086e7d;
 }
-.system{
+
+.system {
     border-top: 2px solid #086e7d;
     margin-top: 50px;
     padding-top: 40px;
     position: relative;
     margin-bottom: 20px;
 }
-.system .title{
+
+.system .title {
     position: absolute;
     top: 0;
     left: 50%;
@@ -252,154 +314,175 @@ header .input-group button:active{
     padding: 10px;
     margin-bottom: 0;
 }
-.system .title h2{
+
+.system .title h2 {
     margin-bottom: 0;
 }
-.system .info h5{
+
+.system .info h5 {
     margin-top: 10px;
 }
+
 .system .info {
     border: 1px solid #086e7d;
     padding: 10px;
     border-radius: 5px;
 }
-.system .info ul{
+
+.system .info ul {
     line-height: 30px;
 }
-footer .top{
+
+footer .top {
     background-color: #e0e0e0;
     padding: 30px;
     margin-top: 30px;
 }
-footer .top a{
+
+footer .top a {
     text-decoration: none;
     color: #626262;
 }
-footer .top a:hover{
+
+footer .top a:hover {
     color: #086e7d;
 }
-footer .top hr{
+
+footer .top hr {
     width: 30%;
 }
-footer .bottom{
+
+footer .bottom {
     background: #3c3c3c;
     color: white;
     padding: 20px;
 }
-footer .bottom h1{
+
+footer .bottom h1 {
     font-size: 25px;
 }
-footer .bottom .image{
+
+footer .bottom .image {
     margin-top: 10px;
 }
-footer .bottom ul li{
+
+footer .bottom ul li {
     font-size: 14px;
 }
 
 /* category */
-.category, .brand, .price{
+.category,
+.brand,
+.price {
     color: #555;
     margin-bottom: 30px;
 }
-.category h3, .brand h3, .color h3, .price h3{
+
+.category h3,
+.brand h3,
+.color h3,
+.price h3 {
     font-size: 18px;
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: bold;
 }
-.category .list ul li{
+
+.category .list ul li {
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
     margin-bottom: 10px;
     font-size: 15px;
     display: flex;
 }
-.category .list ul li .text{
+
+.category .list ul li .text {
     margin-left: 20px;
 }
-.brand .list ul li{
+
+.brand .list ul li {
     display: flex;
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #e0e0e0;
 }
 
-.brand .list ul li .image{
+.brand .list ul li .image {
     margin-left: 20px;
 }
 
-.brand .list ul li .image img{
+.brand .list ul li .image img {
     width: 55%;
 }
 
-.color{
+.color {
     float: left;
     clear: both;
     color: #555;
     margin-bottom: 20px;
 }
 
-.color .list ul li{
+.color .list ul li {
     float: left;
     width: 25%;
     margin-bottom: 10px;
 }
 
-.color .list ul li label{
+.color .list ul li label {
     height: 35px;
     width: 35px;
     border-radius: 50%;
 }
 
-.color .list ul li:first-child label{
+.color .list ul li:first-child label {
     background-color: black;
     border: 1px solid black;
 }
 
-.color .list ul li:nth-child(2) label{
+.color .list ul li:nth-child(2) label {
     background-color: blue;
     border: 1px solid blue;
 }
 
-.color .list ul li:nth-child(3) label{
+.color .list ul li:nth-child(3) label {
     background-color: white;
     border: 1px solid black;
 }
 
-.color .list ul li:nth-child(4) label{
+.color .list ul li:nth-child(4) label {
     background-color: orange;
     border: 1px solid orange;
 }
 
-.color .list ul li:nth-child(5) label{
+.color .list ul li:nth-child(5) label {
     background-color: green;
     border: 1px solid green;
 }
 
-.color .list ul li:nth-child(6) label{
+.color .list ul li:nth-child(6) label {
     background-color: peru;
     border: 1px solid peru;
 }
 
-.color .list ul li:nth-child(7) label{
+.color .list ul li:nth-child(7) label {
     background-color: blueviolet;
     border: 1px solid blueviolet;
 }
 
-.color .list ul li:nth-child(8) label{
+.color .list ul li:nth-child(8) label {
     background-color: brown;
     border: 1px solid brown;
 }
 
-.color .list ul li input{
+.color .list ul li input {
     display: none;
 }
 
-.content .form{
+.content .form {
     position: relative;
 }
 
-#sort{
+#sort {
     position: absolute;
     right: 0;
     top: -70px;
@@ -410,27 +493,27 @@ footer .bottom ul li{
     color: #555;
 }
 
-#sort:focus{
+#sort:focus {
     outline: none;
 }
 
-.content .bottom{
+.content .bottom {
     margin-top: 20px;
 }
 
-.content .bottom ul li{
+.content .bottom ul li {
     margin: 0 2px;
 }
 
-.content .bottom ul li:first-child{
+.content .bottom ul li:first-child {
     margin-left: 0;
 }
 
-.content .bottom ul li:last-child{
+.content .bottom ul li:last-child {
     margin-right: 0;
 }
 
-.content .bottom ul li a{
+.content .bottom ul li a {
     border-radius: 50% !important;
     background-color: #3c3c3c;
     color: white;
@@ -439,29 +522,29 @@ footer .bottom ul li{
     text-align: center;
 }
 
-.content .bottom ul li a.active{
+.content .bottom ul li a.active {
     border: none;
     background-color: #086e7d;
 }
 
-.content .bottom ul li a:hover{
+.content .bottom ul li a:hover {
     background-color: #086e7d;
 }
 
-main h1{
+main h1 {
     font-size: 30px;
     color: #555;
 }
 
-.main__content{
+.main__content {
     margin-top: 70px;
 }
 
-.main__content .title{
+.main__content .title {
     position: relative;
 }
 
-.main__content .title .left{
+.main__content .title .left {
     padding: 10px 20px;
     position: absolute;
     top: -30px;
@@ -472,7 +555,7 @@ main h1{
     font-weight: bold;
 }
 
-.main__content .title .right{
+.main__content .title .right {
     position: absolute;
     top: -30px;
     left: 35%;
@@ -481,46 +564,47 @@ main h1{
     font-weight: bold;
 }
 
-.main__content .post{
+.main__content .post {
     margin-top: 50px;
     line-height: 25px;
     color: #666;
     text-align: justify;
 }
 
-.main__content h2{
+.main__content h2 {
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
     color: #555;
 }
-.main__content p{
+
+.main__content p {
     margin-bottom: 20px;
 }
 
-.main__content h3{
+.main__content h3 {
     font-size: 20px;
     margin-bottom: 20px;
     color: #555;
 }
 
-.main__content img{
+.main__content img {
     width: 100%;
     border-radius: 5px;
 }
 
-main .top .breadcrumb{
+main .top .breadcrumb {
     border-bottom: 1px solid #bdbdbd;
     padding: 15px 0;
     margin-bottom: 40px;
 }
 
-main .top .breadcrumb li a{
+main .top .breadcrumb li a {
     text-decoration: none;
     color: #086e7d;
 }
 
-.contact .name{
+.contact .name {
     font-size: 22px;
     font-weight: bold;
     font-style: italic;
@@ -531,7 +615,8 @@ main .top .breadcrumb li a{
     margin-bottom: 10px;
 }
 
-.contact .hotline, .contact .online{
+.contact .hotline,
+.contact .online {
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
@@ -539,14 +624,328 @@ main .top .breadcrumb li a{
     font-size: 22px;
     margin-bottom: 10px;
 }
-.contact .hotline span, .contact .online span{
+
+.contact .hotline span,
+.contact .online span {
     display: block;
 }
-.contact .hotline span.phone{
+
+.contact .hotline span.phone {
     text-transform: uppercase;
     font-size: 37px;
 }
 
-.contact .online span{
+.contact .online span {
     font-size: 35px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    margin-bottom: 10px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.row-2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    margin-bottom: 1px;
+    padding: 1px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.column img{
+    border: 1px solid #fff;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.column img.active{
+    border: 1px solid #ddd;
+}
+
+/* product */
+.selled{
+    background-color: #ffedac;
+    padding: 10px 0 10px 10px;
+    font-size: 13px;
+}
+
+.selled .text .image{
+    position: relative;
+    top:-4px;
+}
+
+.selled .progress{
+    background-color: #ed5c6a;
+    height: 10px;
+}
+
+.main_product h1{
+    color: #086e7d;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.main_product .price{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #086e7d;
+    margin-bottom: 20px;
+}
+
+.main_product .price span{
+    font-size: 13px;
+    color: #666;
+    font-weight: normal;
+}
+
+.product__attribute{
+    display: flex;
+    color: #086e7d;
+    margin-bottom: 20px;
+}
+
+.product__attribute .title{
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.product__attribute .list{
+    width: 80%;
+}
+
+.product__attribute .list ul{
+    display: flex;
+}
+
+.product__attribute .list li{
+    width: 25%;
+    margin-right: 5px;
+}
+
+.product__attribute .list li:last-child{
+    margin-right: 0;
+}
+
+.product__attribute .list li .btn{
+    border: 1px solid #086e7d;
+    color: #086e7d;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product__attribute .list li .btn:hover{
+    background-color: #086e7d;
+    color: #fff;
+}
+
+.product__attribute .slogan{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+output{
+    font-weight: bold;
+    color: #086e7d;
+}
+
+.subtraction{
+    background-color: #f5f5f5;
+    border-radius: 0;
+}
+
+.subtraction:hover{
+    border-color: #086e7d;
+    color: #086e7d;
+}
+
+.summation{
+    border-radius: 0;
+    background-color: #f5f5f5;
+    margin-left: 0 !important;
+}
+
+.summation:hover{
+    border-color: #086e7d;
+    color: #086e7d;
+}
+
+.showNumber{
+    background-color: #bebebe;
+    width: 50px;
+    margin-left: 0 !important;
+}
+
+.showNumber:hover{
+    background-color: #bebebe;
+    border-color: #666;
+}
+
+.addToCart{
+    display: flex;
+}
+
+.button-add button{
+    background-color: #086e7d;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bold;
+    border: 1px solid #086e7d;
+}
+
+.button-add button:hover{
+    background-color: #fff;
+    color: #086e7d;
+    border: 1px solid #086e7d;
+}
+
+.promotion{
+    position: relative;
+    color: #086e7d;
+    padding: 20px 20px 0;
+    border: 2px solid #086e7d;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.promotion span{
+    position: absolute;
+    top: 0;
+    text-transform: uppercase;
+    background-color: #086e7d;
+    padding: 5px 10px;
+    color: #fec901;
+    font-weight: bold;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.buyNow button{
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #086e7d;
+    color: #fec901;
+    border: none;
+}
+
+.buyNow button:hover{
+    color: white;
+}
+
+.installment{
+    margin-top: 5px;
+}
+
+.installment ul li{
+    float: left;
+    width: 49.5%;
+    background-color: #086e7d;
+    margin-right: 1%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    color: #fec901;
+}
+
+.installment ul li:nth-child(2), 
+.installment ul li:nth-child(4){
+    margin-right: 0;
+}
+
+.installment ul li:nth-child(3),
+.installment ul li:nth-child(4){
+    background-color: #fec901;
+    color: #086e7d;
+    font-weight: bold;
+}
+
+.installment ul li:nth-child(3) span,
+.installment ul li:nth-child(4) span
+{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.product__order{
+    background-color: #fec901;
+    color: #086e7d;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 5px 0;
+    font-weight: bold;
+}
+
+.product__order .text{
+    color: black;
+}
+
+.product__order .phone{
+    font-size: 30px;
+}
+
+.product_ads{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fec901;
+    border-radius: 5px;
+}
+
+.product_ads .image{
+    margin-bottom: 10px;
+}
+
+.product_ads .image:last-child{
+    margin-bottom: 0;
 }
