@@ -694,18 +694,18 @@ main .top .breadcrumb li a {
 }
 
 /* product */
-.selled{
+.main_product .selled{
     background-color: #ffedac;
     padding: 10px 0 10px 10px;
     font-size: 13px;
 }
 
-.selled .text .image{
+.main_product .selled .text .image{
     position: relative;
     top:-4px;
 }
 
-.selled .progress{
+.main_product .selled .progress{
     background-color: #ed5c6a;
     height: 10px;
 }
@@ -948,4 +948,183 @@ output{
 
 .product_ads .image:last-child{
     margin-bottom: 0;
+}
+
+.product__details{
+    margin-top: 20px;
+    border-top: 1px solid #bdbdbd;
+}
+
+.tab-pane{
+    padding-top: 20px;
+}
+
+.nav-tabs{
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link{
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #086e7d;
+    font-weight: bold;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active{
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    border-top: 1px solid #086e7d;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #3c3c3c;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border-bottom: none;
+    color: #3c3c3c;
+}
+
+.specifications{
+    border: 2px solid #086e7d;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.specifications h3{
+    position: absolute;
+    background-color: #086e7d;
+    color: #fec901;
+    padding: 5px 30px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.specifications table{
+    margin-bottom: 0;
+}
+
+.specifications table tr td{
+    border-bottom: none;
+    vertical-align: middle;
+}
+
+.specifications table tr td:first-child{
+    color: #999;
+    width: 40%;
+}
+
+.specifications table tr td:last-child{
+    font-weight: bold;
+    color: #555;
+    width: 60%;
+}
+
+.specifications .more{
+    text-align: center;
+}
+
+.specifications .more a, .agentSystem .more a{
+    background-color: #086e7d;
+    color: #fec901;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.specifications .more a:hover, .agentSystem .more a:hover{
+    color: #fff;
+}
+
+.agentSystem{
+    margin-top: 50px;
+    position: relative;
+}
+
+.agentSystem__details{
+    margin-top: 30px;
+}
+
+.agentSystem .more{
+    margin-top: 20px;
+}
+
+.agentSystem h3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.agentSystem .posts{
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+
+.agentSystem .posts:hover{
+    border: 1px solid #f9f9f9;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.agentSystem .posts:hover img{
+    border-radius: 5px;
+}
+
+.agentSystem .posts:hover a{
+    color: #086e7d;
+}
+
+.agentSystem h3{
+    color: #086e7d;
+    text-transform: uppercase;
+}
+
+.agentSystem h4{
+    font-size: 18px;
+}
+
+.agentSystem a{
+    text-decoration: none;
+    color: #555;
+}
+
+.viewed{
+    border-top: 1px solid #999;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.similarProduct{
+    border-top: 1px solid #999;
+    padding: 20px 0;
+    margin-top: 10px;
+}
+
+.viewed h3, .similarProduct h3{
+    color: #086e7d;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.viewed .owl-carousel img, .similarProduct .owl-carousel img{
+    border-radius: 5px;
+    border: 2px solid white;
+}
+
+.viewed .owl-carousel img:hover, .similarProduct .owl-carousel img:hover{
+    border: 2px solid #086e7d;
 }

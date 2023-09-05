@@ -1,412 +1,876 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
-<body>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
+  <body>
     <header>
+      <div class="container">
+        <div class="row text-uppercase align-items-center color-blueLight">
+          <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-5">
+                <i class="fa fa-phone"></i> Mua hàng: 028 6253 9118
+              </div>
+              <div class="col-md-7">
+                <i class="fa fa-phone"></i> Bảo hành: 028 6253 9118
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="row font-size-20 text-center">
+              <div class="col-md-6 bg-yellowLight clip-path font-roboto">
+                <strong><em>The world Ebike.com</em></strong>
+              </div>
+              <div class="col-md-6 bg-yellowLight clip-path">
+                <b>Bảo hành 2 năm</b>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-blueLight p-10">
         <div class="container">
-            <div class="row text-uppercase align-items-center color-blueLight">
-                <div class="col-md-7">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <i class="fa fa-phone"></i> Mua hàng: 028 6253 9118
-                        </div>
-                        <div class="col-md-7">
-                            <i class="fa fa-phone"></i> Bảo hành: 028 6253 9118
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <div class="row font-size-20 text-center">
-                        <div class="col-md-6 bg-yellowLight clip-path font-roboto">
-                            <strong><em>The world Ebike.com</em></strong>
-                        </div>
-                        <div class="col-md-6 bg-yellowLight clip-path">
-                            <b>Bảo hành 2 năm</b>
-                        </div>
-                    </div>
-                </div>
+          <div class="row align-items-center">
+            <div
+              class="col-md-4 color-yellowLight font-size-35 text-uppercase font-roboto"
+            >
+              <strong><em>The world Ebike.com</em></strong>
             </div>
-        </div>
-        <div class="bg-blueLight p-10">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4 color-yellowLight font-size-35 text-uppercase font-roboto">
-                        <strong><em>The world Ebike.com</em></strong>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="input-group bg-white rounded-pill">
-                            <input type="text" class="form-control rounded-pill border-0" placeholder="Tìm kiếm">
-                            <button class="btn" type="submit">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <ul class="text-uppercase menu d-flex justify-content-evenly">
-                            <li><a href="" class="text-decoration-none">Sản phẩm</a></li>
-                            <li><a href="" class="text-decoration-none">Dịch vụ</a></li>
-                            <li><a href="" class="text-decoration-none">Tin tức</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-1">
-                        <ul class="d-flex justify-content-evenly shopping">
-                            <li><a href="" class="text-decoration-none"><i class="fa-solid fa-user"></i></a></li>
-                            <li><a href="" class="text-decoration-none"><i class="fa-solid fa-cart-shopping"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-md-4">
+              <div class="input-group bg-white rounded-pill">
+                <input
+                  type="text"
+                  class="form-control rounded-pill border-0"
+                  placeholder="Tìm kiếm"
+                />
+                <button class="btn" type="submit">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
             </div>
+            <div class="col-md-3">
+              <ul class="text-uppercase menu d-flex justify-content-evenly">
+                <li><a href="" class="text-decoration-none">Sản phẩm</a></li>
+                <li><a href="" class="text-decoration-none">Dịch vụ</a></li>
+                <li><a href="" class="text-decoration-none">Tin tức</a></li>
+              </ul>
+            </div>
+            <div class="col-md-1">
+              <ul class="d-flex justify-content-evenly shopping">
+                <li>
+                  <a href="" class="text-decoration-none"
+                    ><i class="fa-solid fa-user"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="" class="text-decoration-none"
+                    ><i class="fa-solid fa-cart-shopping"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </header>
 
     <main>
-        <div class="container">
-            <div class="top">
-                <ul class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
-                    <li class="breadcrumb-item"><a href="#">Shop</a></li>
-                    <li class="breadcrumb-item active">Xe đạp gấp</li>
-                </ul>
-            </div>
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="row main_product">
-                        <div class="col-md-6" style="position: relative;">
-                            <div class="mySlides">
-                                <img src="images/p1.jpeg" style="width:100%">
-                            </div>
-
-                            <div class="mySlides">
-                                <img src="images/p2.jpeg" style="width:100%">
-                            </div>
-
-                            <div class="mySlides">
-                                <img src="images/p5.jpeg" style="width:100%">
-                            </div>
-
-                            <div class="mySlides">
-                                <img src="images/p1.jpeg" style="width:100%">
-                            </div>
-
-                            <div class="mySlides">
-                                <img src="images/p2.jpeg" style="width:100%">
-                            </div>
-
-                            <div class="mySlides">
-                                <img src="images/p5.jpeg" style="width:100%">
-                            </div>
-
-                            <!-- Thumbnail images -->
-                            <div class="row-2">
-                                <div class="column">
-                                    <img class="demo cursor" src="images/p1.jpeg" style="width:100%"
-                                        onclick="currentSlide(1)" alt="The Woods">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/p2.jpeg" style="width:100%"
-                                        onclick="currentSlide(2)" alt="Cinque Terre">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/p5.jpeg" style="width:100%"
-                                        onclick="currentSlide(3)" alt="Northern Lights">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/p1.jpeg" style="width:100%"
-                                        onclick="currentSlide(4)" alt="Nature and sunrise">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/p2.jpeg" style="width:100%"
-                                        onclick="currentSlide(5)" alt="Snowy Mountains">
-                                </div>
-                                <div class="column">
-                                    <img class="demo cursor" src="images/p1.jpeg" style="width:100%"
-                                        onclick="currentSlide(6)" alt="The Woods">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <h1>Xe đạp thể thao C24</h1>
-                            <div class="selled">
-                                <div class="text">
-                                    <span class="image"><img src="images/fire.webp" width="18" alt=""></span>
-                                    <span>Đã bán <b>167</b> sản phẩm</span>
-                                </div>
-                                <div class="progress">
-                                    <div class="progress-bar bg-danger" style="width:80%"></div>
-                                </div>
-                            </div>
-                            <div class="price">
-                                23.990.000 đ
-                                <span>(Đã bao gồm phí ship)</span>
-                            </div>
-                            <div class="product__attribute">
-                                <div class="title">
-                                    Màu Sắc:
-                                </div>
-                                <div class="list">
-                                    <ul>
-                                        <li>
-                                            <button type="button" class="btn">Vàng</button>
-                                        </li>
-                                        <li>
-                                            <button type="button" class="btn">Trắng</button>
-                                        </li>
-                                        <li>
-                                            <button type="button" class="btn">Đỏ</button>
-                                        </li>
-                                        <li>
-                                            <button type="button" class="btn">Xanh</button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="product__attribute">
-                                <div class="title">
-                                    Pin:
-                                </div>
-                                <div class="list">
-                                    <ul>
-                                        <li>
-                                            <button type="button" class="btn">10 mAh</button>
-                                        </li>
-                                        <li>
-                                            <button type="button" class="btn">20 mAh</button>
-                                        </li>
-                                        <li>
-                                            <button type="button" class="btn">30 mAh</button>
-                                        </li>
-                                        <li>
-                                            <button type="button" class="btn">40 mAh</button>
-                                        </li>
-                                    </ul>
-                                    <div class="slogan">
-                                        <q>Nơi bán xe Uy Tín tại Việt Nam</q>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="addToCart">
-                                <div class="btn-group">
-                                    <button type="button" class="btn subtraction" onclick="jsSubtraction()">-</button>
-                                    <button type="button" class="btn showNumber">1</button>
-                                    <button type="button" class="btn summation" onclick="jsSummation()">+</button>
-                                </div>
-                                <div class="button-add">
-                                    <button type="button">Thêm vào giỏ hàng</button>
-                                </div>
-                            </div>
-                            <div class="promotion">
-                                <span>Khuyến mãi khi mua 2 sản phẩm</span>
-                                Giảm 5%
-                            </div>
-                            <div class="buyNow">
-                                <button type="button">Mua Ngay</button>
-                            </div>
-                            <div class="installment">
-                                <ul>
-                                    <li>
-                                        Trả góp 0%
-                                        <br>
-                                        Tại cửa hàng
-                                    </li>
-                                    <li>
-                                        Trả góp qua thẻ
-                                        <br>
-                                        Visa, Master
-                                    </li>
-                                    <li>
-                                        <span>0946721565</span>
-                                        <br>
-                                        Hotline mua hàng
-                                    </li>
-                                    <li>
-                                        <span>Chat trực tiếp</span>
-                                        <br>
-                                        Zalo
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="top">
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Trang chủ</a></li>
+            <li class="breadcrumb-item"><a href="#">Shop</a></li>
+            <li class="breadcrumb-item active">Xe đạp gấp</li>
+          </ul>
+        </div>
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row main_product">
+              <div class="col-md-6" style="position: relative">
+                <div class="mySlides">
+                  <img src="images/p1.jpeg" style="width: 100%" />
                 </div>
-                <div class="col-md-3">
-                    <div class="product__order">
-                        <div class="text">Hotline đặt hàng</div>
-                        <div class="phone">028 6253 9118</div>
+
+                <div class="mySlides">
+                  <img src="images/p2.jpeg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                  <img src="images/p5.jpeg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                  <img src="images/p1.jpeg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                  <img src="images/p2.jpeg" style="width: 100%" />
+                </div>
+
+                <div class="mySlides">
+                  <img src="images/p5.jpeg" style="width: 100%" />
+                </div>
+
+                <!-- Thumbnail images -->
+                <div class="row-2">
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="images/p1.jpeg"
+                      style="width: 100%"
+                      onclick="currentSlide(1)"
+                      alt="The Woods"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="images/p2.jpeg"
+                      style="width: 100%"
+                      onclick="currentSlide(2)"
+                      alt="Cinque Terre"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="images/p5.jpeg"
+                      style="width: 100%"
+                      onclick="currentSlide(3)"
+                      alt="Northern Lights"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="images/p1.jpeg"
+                      style="width: 100%"
+                      onclick="currentSlide(4)"
+                      alt="Nature and sunrise"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="images/p2.jpeg"
+                      style="width: 100%"
+                      onclick="currentSlide(5)"
+                      alt="Snowy Mountains"
+                    />
+                  </div>
+                  <div class="column">
+                    <img
+                      class="demo cursor"
+                      src="images/p1.jpeg"
+                      style="width: 100%"
+                      onclick="currentSlide(6)"
+                      alt="The Woods"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <h1>Xe đạp thể thao C24</h1>
+                <div class="selled">
+                  <div class="text">
+                    <span class="image"
+                      ><img src="images/fire.webp" width="18" alt=""
+                    /></span>
+                    <span>Đã bán <b>167</b> sản phẩm</span>
+                  </div>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+                <div class="price">
+                  23.990.000 đ
+                  <span>(Đã bao gồm phí ship)</span>
+                </div>
+                <div class="product__attribute">
+                  <div class="title">Màu Sắc:</div>
+                  <div class="list">
+                    <ul>
+                      <li>
+                        <button type="button" class="btn">Vàng</button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn">Trắng</button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn">Đỏ</button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn">Xanh</button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="product__attribute">
+                  <div class="title">Pin:</div>
+                  <div class="list">
+                    <ul>
+                      <li>
+                        <button type="button" class="btn">10 mAh</button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn">20 mAh</button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn">30 mAh</button>
+                      </li>
+                      <li>
+                        <button type="button" class="btn">40 mAh</button>
+                      </li>
+                    </ul>
+                    <div class="slogan">
+                      <q>Nơi bán xe Uy Tín tại Việt Nam</q>
                     </div>
-                    <div class="product_ads">
-                        <div class="image">
-                            <img src="images/quangcao.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+                <div class="addToCart">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn subtraction"
+                      onclick="jsSubtraction()"
+                    >
+                      -
+                    </button>
+                    <button type="button" class="btn showNumber">1</button>
+                    <button
+                      type="button"
+                      class="btn summation"
+                      onclick="jsSummation()"
+                    >
+                      +
+                    </button>
+                  </div>
+                  <div class="button-add">
+                    <button type="button">Thêm vào giỏ hàng</button>
+                  </div>
+                </div>
+                <div class="promotion">
+                  <span>Khuyến mãi khi mua 2 sản phẩm</span>
+                  Giảm 5%
+                </div>
+                <div class="buyNow">
+                  <button type="button">Mua Ngay</button>
+                </div>
+                <div class="installment">
+                  <ul>
+                    <li>
+                      Trả góp 0%
+                      <br />
+                      Tại cửa hàng
+                    </li>
+                    <li>
+                      Trả góp qua thẻ
+                      <br />
+                      Visa, Master
+                    </li>
+                    <li>
+                      <span>0946721565</span>
+                      <br />
+                      Hotline mua hàng
+                    </li>
+                    <li>
+                      <span>Chat trực tiếp</span>
+                      <br />
+                      Zalo
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="product__order">
+              <div class="text">Hotline đặt hàng</div>
+              <div class="phone">028 6253 9118</div>
+            </div>
+            <div class="product_ads">
+              <div class="image">
+                <img src="images/quangcao.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="image">
+                <img src="images/quangcao.jpg" alt="" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__details">
+          <div class="row">
+            <div class="col-md-7">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link active" data-bs-toggle="tab" href="#home"
+                    >Mô tả sản phẩm</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#menu1"
+                    >Video</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" data-bs-toggle="tab" href="#menu2"
+                    >Hình ảnh</a
+                  >
+                </li>
+              </ul>
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div class="tab-pane active" id="home">
+                  <p>
+                    Ukraine đang tăng cường sử dụng UAV giá rẻ để tập kích lãnh
+                    thổ Nga, song chương trình này của Kiev cũng đối mặt một số
+                    thách thức.
+                  </p>
+                  <p>
+                    Bộ Quốc phòng Nga ngày 4/9 thông báo đã đẩy lùi một cuộc tập
+                    kích bằng máy bay không người lái (UAV) của Ukraine tại tỉnh
+                    biên giới Kursk và bán đảo Crimea, với nhiều phi cơ bị bắn
+                    hạ. Roman Starovoit, thống đốc tỉnh Kursk, cho biết vụ tấn
+                    công đã khiến một tòa nhà ở thành phố Kurchatov bốc cháy
+                    nhưng không gây thương vong.
+                  </p>
+                  <p>
+                    Đây là một trong loạt vụ tập kích bằng UAV nhắm vào các mục
+                    tiêu trong lãnh thổ Nga trong vài tuần qua, trong đó có một
+                    số vụ gây thiệt hại lớn. Ngày 30/8, vụ tấn công vào sân bay
+                    ở thành phố Pskov, thủ phủ tỉnh cùng tên, đã khiến 4 máy bay
+                    vận tải hạng nặng Ilyushin Il-76 bị hư hại. Đây được cho là
+                    vụ tập kích bằng UAV có quy mô lớn lớn nhất nhằm vào lãnh
+                    thổ Nga.
+                  </p>
+                  <p>
+                    Tổng thống Ukraine Volodymyr Zelensky tháng trước cảnh báo
+                    "chiến sự đang đến với người Nga", khi các đô thị mang tính
+                    biểu tượng và căn cứ quân sự của nước này trở thành mục tiêu
+                    của UAV.
+                  </p>
+                  <p>
+                    Từ khi chiến sự bùng phát, Nga đã liên tiếp tiến hành các vụ
+                    không kích tầm xa nhắm vào cơ sở hạ tầng quan trọng của
+                    Ukraine bằng tên lửa và UAV. Trong khi đó, Kiev không có
+                    năng lực đáp trả tương xứng, do lực lượng không quân của
+                    nước này bị áp đảo về mọi mặt, trong khi phương Tây không
+                    cho phép Ukraine sử dụng vũ khí tầm xa được viện trợ để tấn
+                    công mục tiêu trên lãnh thổ Nga.
+                  </p>
+                  <p>
+                    Điều đó buộc quân đội Ukraine phải tìm phương án khác để đáp
+                    trả Nga. Một chiến thuật được Kiev áp dụng gần đây là hoán
+                    cải các dòng tên lửa cũ, trong đó có dòng S-200, để tập kích
+                    ở khoảng cách lớn. Tên lửa S-200 hoán cải đã được sử dụng để
+                    thực hiện nhiều vụ tấn công vào sâu trong lãnh thổ Nga, bao
+                    gồm vụ tập kích vào tỉnh Rostov hôm 28/7.
+                  </p>
+                  <p>
+                    Song song với việc với chỉnh sửa tên lửa đời cũ, Ukraine
+                    cũng đẩy mạnh phát triển các dòng UAV mới. Một trong những
+                    mẫu UAV tiềm năng hiện nay của Ukraine là "Morok", dòng UAV
+                    tự sát tốc độ cao do tư nhân phát triển, có thể mang theo
+                    lượng lớn thuốc nổ với tầm hoạt động lên tới vài trăm km.
+                  </p>
+                  <p>
+                    Morok là một trong các UAV được sử dụng trong cuộc tập kích
+                    vào một căn cứ quân sự tại bán đảo Crimea hôm 25/8. Nga
+                    không tiết lộ thông tin về thiệt hại của đòn tập kích, nhưng
+                    cho biết đã đánh chặn nhiều UAV trên bầu trời Crimea hôm đó.
+                  </p>
+                  <p>
+                    Giới chức Ukraine cho rằng dùng UAV tập kích vào sâu trong
+                    lãnh thổ Nga là biện pháp tăng áp lực tâm lý, khiến người
+                    Nga nhận ra thực tế tàn khốc của chiến tranh và ngừng ủng hộ
+                    chiến dịch quân sự. Ngoài ra, chiến thuật này còn hỗ trợ
+                    trực tiếp chiến dịch phản công của Ukraine bằng cách nhắm
+                    mục tiêu vào các hạ tầng quan trọng của đối phương,
+                  </p>
+                  <p>
+                    "Các mục tiêu của UAV là kho chứa nhiên liệu, cơ sở hậu cần,
+                    kho đạn và các tuyến đường vận chuyển", người điều khiển UAV
+                    mang mật danh "Detective" của tình báo Ukraine nói. "Binh sĩ
+                    ở tiền tuyến biết vũ khí của Nga được cất giữ ở đâu, nhưng
+                    không có cách phá hủy chúng và chúng tôi làm điều đó cho
+                    họ".
+                  </p>
+                  <p>
+                    Morok là một trong các UAV được sử dụng trong cuộc tập kích
+                    vào một căn cứ quân sự tại bán đảo Crimea hôm 25/8. Nga
+                    không tiết lộ thông tin về thiệt hại của đòn tập kích, nhưng
+                    cho biết đã đánh chặn nhiều UAV trên bầu trời Crimea hôm đó.
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="menu1">
+                  <p>
+                    <iframe
+                      width="100%"
+                      height="500"
+                      src="https://www.youtube.com/embed/VbAyLxGC42o?si=VG-6DgOLZ-LoDygd"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </p>
+                  <p>
+                    <iframe
+                      width="100%"
+                      height="500"
+                      src="https://www.youtube.com/embed/VSTBflOCODg?si=XRFjiHUNnpZFpTzu"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowfullscreen
+                    ></iframe>
+                  </p>
+                </div>
+                <div class="tab-pane fade" id="menu2">
+                  <table class="table table-bordered">
+                    <tbody>
+                      <tr>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                      </tr>
+                      <tr>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                        <td><img src="images/p1.jpeg" class="img-fluid" /></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div class="specifications">
+                <h3>Thông số kỹ thuật</h3>
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Kích cỡ / Size</td>
+                      <td class="text-end">S, M</td>
+                    </tr>
+                    <tr>
+                      <td>Màu sắc / Color</td>
+                      <td class="text-end">Helios Orange</td>
+                    </tr>
+                    <tr>
+                      <td>Chất liệu khung / Frame</td>
+                      <td class="text-end">Advanced-Grade Composute, disc</td>
+                    </tr>
+                    <tr>
+                      <td>Phuộc / Fork</td>
+                      <td class="text-end">
+                        Advanced-Grade Composute, alloy OverDrive steerer, disc
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Giảm xóc / Shock</td>
+                      <td class="text-end">N/A</td>
+                    </tr>
+                    <tr>
+                      <td>Vành xe / Rims</td>
+                      <td class="text-end">Giant SR2 Disc Wheelset</td>
+                    </tr>
+                    <tr>
+                      <td>Đùm / Hubs</td>
+                      <td class="text-end">Giant SR2 Disc Wheelset</td>
+                    </tr>
+                    <tr>
+                      <td>Căm / Spokes</td>
+                      <td class="text-end">
+                        Giant Gavia Fondo 2, tubeless, 700x32c
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Ghi đông / Handlebar</td>
+                      <td class="text-end">
+                        Giant Connect, flat (XS:58cm, S:58cm, M:58cm, M/L:62cm,
+                        L:62cm, XL:62cm)
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="more">
+                  <a href="">Xem thêm</a>
+                </div>
+              </div>
+              <div class="agentSystem">
+                <hr />
+                <h3>Hệ thống đại lý</h3>
+                <div class="agentSystem__details">
+                  <div class="posts">
+                    <a href="">
+                      <div class="row align-items-center">
+                        <div class="col-md-5">
+                          <img src="images/p1.jpeg" class="img-fluid" />
                         </div>
-                        <div class="image">
-                            <img src="images/quangcao.jpg" alt="" class="img-fluid">
+                        <div class="col-md-7">
+                          <h4>
+                            Cửa hàng xe đạp thể thao tại Hội An uy tín, giá tốt
+                          </h4>
                         </div>
-                    </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="posts">
+                    <a href="">
+                      <div class="row align-items-center">
+                        <div class="col-md-5">
+                          <img src="images/p1.jpeg" class="img-fluid" />
+                        </div>
+                        <div class="col-md-7">
+                          <h4>
+                            Cửa hàng xe đạp thể thao tại Hội An uy tín, giá tốt
+                          </h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="posts">
+                    <a href="">
+                      <div class="row align-items-center">
+                        <div class="col-md-5">
+                          <img src="images/p1.jpeg" class="img-fluid" />
+                        </div>
+                        <div class="col-md-7">
+                          <h4>
+                            Cửa hàng xe đạp thể thao tại Hội An uy tín, giá tốt
+                          </h4>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="more">
+                  <a href="">Xem thêm</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="viewed">
+            <h3>Sản phẩm bạn đã xem</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
                 </div>
             </div>
         </div>
+        <div class="similarProduct">
+            <h3>Sản phẩm tương tự</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="">
+                        <img src="images/xemay.webp" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <h5 class="color-blueLight">
-                            Thông tin
-                            <hr>
-                        </h5>
-                        <div class="list">
-                            <ul>
-                                <li><a href="">Tin Tức</a></li>
-                                <li><a href="">Tuyển dụng</a></li>
-                                <li><a href="">Zalo 1: 0911.966.944</a></li>
-                                <li><a href="">Zalo 2: 0911.966.944</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h5 class="color-blueLight">
-                            Chính sách
-                            <hr>
-                        </h5>
-                        <div class="list">
-                            <ul>
-                                <li><a href="">Hướng dẫn trả góp</a></li>
-                                <li><a href="">Chế độ bảo hành</a></li>
-                                <li><a href="">Chính sách bảo hành</a></li>
-                                <li><a href="">Khuyến mãi</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h5 class="color-blueLight">
-                            Công ty
-                            <hr>
-                        </h5>
-                        <div class="list">
-                            <ul>
-                                <li><a href="">Giới thiệu</a></li>
-                                <li><a href="">Hệ thống cửa hàng</a></li>
-                                <li><a href="">Liên hệ</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <h5 class="color-blueLight">
-                            Kết nối
-                            <hr>
-                        </h5>
-                        <div class="list">
-                            <ul>
-                                <li class="d-inline"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-                                <li class="d-inline"><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
-                                <li class="d-inline"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                                <li class="d-inline"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-                                <li class="d-inline"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="color-blueLight">
+                Thông tin
+                <hr />
+              </h5>
+              <div class="list">
+                <ul>
+                  <li><a href="">Tin Tức</a></li>
+                  <li><a href="">Tuyển dụng</a></li>
+                  <li><a href="">Zalo 1: 0911.966.944</a></li>
+                  <li><a href="">Zalo 2: 0911.966.944</a></li>
+                </ul>
+              </div>
             </div>
-        </div>
-        <div class="bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="list">
-                            <ul>
-                                <li>Hotline: 1800 8973</li>
-                                <li>CSKH: 1800 9063 (9:00 - 17:00)</li>
-                                <li>Email: info@ebike.com</li>
-                            </ul>
-                        </div>
-                        <div class="image">
-                            <img src="images/dathongbao.png" width="150" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-md-5">
-                        <h1 class="text-uppercase color-yellowLight">Công ty cổ phần Ebike</h1>
-                        <div class="list">
-                            <ul>
-                                <li>ĐKKD/MST: 0313891315 do sở KH&DT TP.HCM cấp 04/07/2016</li>
-                                <li>Trụ sở: 100 Hải Thượng Lãn Ông, P.10, Quận 5, TP.HCM</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="payment">
-                            <ul>
-                                <li class="d-inline"><img src="images/visa.png" width="80" alt="" class="img-fluid">
-                                </li>
-                                <li class="d-inline"><img src="images/mastercard.png" width="80" alt=""
-                                        class="img-fluid"></li>
-                                <li class="d-inline"><img src="images/discover.png" width="80" alt="" class="img-fluid">
-                                </li>
-                                <li class="d-inline"><img src="images/american.png" width="80" alt="" class="img-fluid">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-3">
+              <h5 class="color-blueLight">
+                Chính sách
+                <hr />
+              </h5>
+              <div class="list">
+                <ul>
+                  <li><a href="">Hướng dẫn trả góp</a></li>
+                  <li><a href="">Chế độ bảo hành</a></li>
+                  <li><a href="">Chính sách bảo hành</a></li>
+                  <li><a href="">Khuyến mãi</a></li>
+                </ul>
+              </div>
             </div>
+            <div class="col-md-3">
+              <h5 class="color-blueLight">
+                Công ty
+                <hr />
+              </h5>
+              <div class="list">
+                <ul>
+                  <li><a href="">Giới thiệu</a></li>
+                  <li><a href="">Hệ thống cửa hàng</a></li>
+                  <li><a href="">Liên hệ</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <h5 class="color-blueLight">
+                Kết nối
+                <hr />
+              </h5>
+              <div class="list">
+                <ul>
+                  <li class="d-inline">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li class="d-inline">
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                  <li class="d-inline">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="d-inline">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                  <li class="d-inline">
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="list">
+                <ul>
+                  <li>Hotline: 1800 8973</li>
+                  <li>CSKH: 1800 9063 (9:00 - 17:00)</li>
+                  <li>Email: info@ebike.com</li>
+                </ul>
+              </div>
+              <div class="image">
+                <img
+                  src="images/dathongbao.png"
+                  width="150"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+            <div class="col-md-5">
+              <h1 class="text-uppercase color-yellowLight">
+                Công ty cổ phần Ebike
+              </h1>
+              <div class="list">
+                <ul>
+                  <li>
+                    ĐKKD/MST: 0313891315 do sở KH&DT TP.HCM cấp 04/07/2016
+                  </li>
+                  <li>Trụ sở: 100 Hải Thượng Lãn Ông, P.10, Quận 5, TP.HCM</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="payment">
+                <ul>
+                  <li class="d-inline">
+                    <img
+                      src="images/visa.png"
+                      width="80"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li class="d-inline">
+                    <img
+                      src="images/mastercard.png"
+                      width="80"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li class="d-inline">
+                    <img
+                      src="images/discover.png"
+                      width="80"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </li>
+                  <li class="d-inline">
+                    <img
+                      src="images/american.png"
+                      width="80"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
+    <!-- javascript -->
+    <script src="scripts/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
+      let slideIndex = 1;
+      showSlides(slideIndex);
 
-        // Thumbnail image controls
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
+      // Thumbnail image controls
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
 
-        function showSlides(n) {
-            let i;
-            let slides = document.getElementsByClassName("mySlides");
-            let dots = document.getElementsByClassName("demo");
-            if (n > slides.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = slides.length }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("demo");
+        if (n > slides.length) {
+          slideIndex = 1;
         }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
 
-        // addToCart
-        function jsSubtraction() {
-            let number = document.getElementsByClassName("showNumber")[0].innerHTML;
-            number = parseInt(number);
-            if(number > 1){
-                document.getElementsByClassName("showNumber")[0].innerHTML = parseInt(number) - 1;
-            }
+      // addToCart
+      function jsSubtraction() {
+        let number = document.getElementsByClassName("showNumber")[0].innerHTML;
+        number = parseInt(number);
+        if (number > 1) {
+          document.getElementsByClassName("showNumber")[0].innerHTML =
+            parseInt(number) - 1;
         }
+      }
 
-        function jsSummation() {
-            let number = document.getElementsByClassName("showNumber")[0].innerHTML;
-            number = parseInt(number);
-            if(number < 100){
-                document.getElementsByClassName("showNumber")[0].innerHTML = parseInt(number) + 1;
-            }
+      function jsSummation() {
+        let number = document.getElementsByClassName("showNumber")[0].innerHTML;
+        number = parseInt(number);
+        if (number < 100) {
+          document.getElementsByClassName("showNumber")[0].innerHTML =
+            parseInt(number) + 1;
         }
+      }
     </script>
-</body>
-
+    <script src="scripts/owl.carousel.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: false,
+            dots: false,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
+    </script>
+  </body>
 </html>
