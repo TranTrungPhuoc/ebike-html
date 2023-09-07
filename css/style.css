@@ -25,7 +25,7 @@
 }
 
 .font-size-35 {
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .p-10 {
@@ -61,6 +61,13 @@ header .input-group button:hover {
 
 header .input-group button:active {
     border: none;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 .menu li a {
@@ -213,7 +220,7 @@ header .input-group button:active {
 }
 
 .youtube .box h4 {
-    font-size: 22px;
+    font-size: 20px;
     min-height: 53px;
 }
 
@@ -1127,4 +1134,145 @@ output{
 
 .viewed .owl-carousel img:hover, .similarProduct .owl-carousel img:hover{
     border: 2px solid #086e7d;
+}
+
+.comment__title{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.comment__title .title__text{
+    text-transform: uppercase;
+    color: #fec901;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    position: absolute;
+    top: -30px;
+}
+
+.comment__title .title__slogan{
+    position: absolute;
+    top: -20px;
+    right: 0;
+    transform: translate(0, -50%);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.comment__star{
+    margin-bottom: 20px;
+}
+
+.comment__star h4{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.comment__star .star__view{
+    display: flex;
+    padding-left: 10px;
+}
+
+.comment__star .star__view .view__number{
+    font-size: 30px;
+    font-weight: bold;
+    color: orange;
+}
+
+.comment__star .star__view .view__list,
+.comment__star .star__view .view__show
+{
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+.comment__star .star__view .view__list i{
+    color: orange;
+}
+
+.comment__star .star__view .view__show a{
+    text-decoration: none;
+}
+
+.comment__progress{
+    width: 50%;
+}
+
+.comment__progress li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.comment__progress li:last-child{
+    margin-bottom: 0;
+}
+
+.comment__progress li .number{
+    margin-right: 5px;
+}
+
+.comment__progress li .icon{
+    margin-right: 10px;
+}
+
+.comment__progress li .progress{
+    width: 100%;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.comment__images{
+    display: flex;
+    margin-top: 40px;
+}
+
+.comment__images .image{
+    width: 20%;
+    margin-right: 10px;
+}
+
+.comment__images .image img{
+    border-radius: 10px;
+}
+
+.comment__images .image:last-child{
+    margin-right: 0;
+}
+
+.comment__list{
+    margin-top: 20px;
+}
+
+.comment__list .list__title{
+    margin-bottom: 10px;
+}
+
+.comment__list .view__list i{
+    color: orange;
+}
+
+.comment__list .view__list .fa-heart{
+    color: red;
+}
+
+.comment__list .view__list .dash{
+    color: #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.comment__list .list__title .icon{
+    margin-left: 10px;
+    color: green;
+}
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1070px;
+    }
 }
