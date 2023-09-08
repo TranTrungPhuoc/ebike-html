@@ -1035,6 +1035,8 @@ output{
     text-transform: uppercase;
     border-radius: 10px;
     font-size: 20px;
+    width: 65%;
+    text-align: center;
 }
 
 .specifications table{
