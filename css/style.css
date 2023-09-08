@@ -1,19 +1,19 @@
 @import url('header.css');
 
 .bg-yellowLight {
-    background-color: #fec901;
+    background-color: #a1e611;
 }
 
 .bg-blueLight {
-    background-color: #086e7d;
+    background-color: #333;
 }
 
 .color-blueLight {
-    color: #086e7d;
+    color: #333;
 }
 
 .color-yellowLight {
-    color: #fec901;
+    color: #a1e611;
 }
 
 .clip-path {
@@ -37,7 +37,7 @@
 }
 
 .fa-phone {
-    color: #086e7d;
+    color: #567f00;
     margin-right: 5px;
 }
 
@@ -56,7 +56,7 @@ header .form-control:focus {
 }
 
 header .input-group button:hover {
-    color: #086e7d;
+    color: #333;
 }
 
 header .input-group button:active {
@@ -68,7 +68,7 @@ header .input-group button:active {
 }
 
 .menu li a:hover {
-    color: #fec901;
+    color: #a1e611;
 }
 
 .shopping a {
@@ -76,11 +76,16 @@ header .input-group button:active {
 }
 
 .shopping a:hover {
-    color: #fec901;
+    color: #a1e611;
 }
 
 .service {
     padding: 50px 0 30px;
+}
+
+.service .col-md-3:hover{
+    transform: translate3d(0, -5px, 0);
+    transition: all .5s;
 }
 
 .service .icon {
@@ -97,10 +102,18 @@ header .input-group button:active {
 }
 
 .bestSeller .box {
-    border: 3px solid #086e7d;
+    border: 3px solid #a1e611;
     border-radius: 20px;
-    padding: 20px;
+    padding: 40px 20px 10px;
     margin-top: 50px;
+}
+
+.bestSeller a{
+    color: #333;
+}
+
+.bestSeller a:hover h2{
+    color: #567f00;
 }
 
 .bestSeller h2 {
@@ -132,7 +145,7 @@ header .input-group button:active {
     border-radius: 20px;
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: -25px;
     transform: translate(-50%, -80%);
     font-style: italic;
 }
@@ -140,15 +153,18 @@ header .input-group button:active {
 .bestSeller .guarantee {
     position: absolute;
     right: 0;
-    top: -5%;
+    top: -25px;
     transform: translate(0, -145%);
-    font-size: 27px;
-    font-weight: bold;
+    font-size: 25px;
     font-style: italic;
 }
 
 .details {
     margin-top: 30px;
+}
+
+.details .products{
+    padding-bottom: 10px;
 }
 
 .details .products a {
@@ -163,6 +179,7 @@ header .input-group button:active {
     -moz-box-shadow: 0 15px 30px rgba(0,0,0,.1);
     -webkit-box-shadow: 0 15px 30px rgba(0,0,0,.1);
     -webkit-transform: translate3d(0,-5px,0);
+    background-color: #fff;
 }
 
 .details .products:hover .price {
@@ -201,17 +218,31 @@ header .input-group button:active {
 }
 
 .more {
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+.more a{
+    color: #ccc;
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.more a:hover{
+    color: #333;
+    background-color: #efefef;
 }
 
 .youtube {
     margin-top: 30px;
-    color: #086e7d;
+    color: #333;
     position: relative;
 }
 
 .youtube .box {
-    border: 3px solid #086e7d;
+    border: 3px solid #333;
     border-radius: 20px;
     padding: 32px 20px;
     height: 100%;
@@ -270,14 +301,15 @@ header .input-group button:active {
 .tutorials .video .caption {
     position: absolute;
     bottom: -18px;
-    color: white;
-    width: 70%;
+    color: #fff;
+    width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: 13px;
+    /* border-top-left-radius: 10px; */
+    /* border-top-right-radius: 10px; */
+    font-size: 11px;
+    padding: 10px 5px;
 }
 
 .knowledge .title {
@@ -295,6 +327,10 @@ header .input-group button:active {
 .knowledge .products:hover {
     transform: translate3d(0, -5px, 0);
     transition: all .5s;
+}
+
+.knowledge .products:hover a h4{
+    color: #567f00;
 }
 
 .knowledge .products .image {
@@ -319,11 +355,11 @@ header .input-group button:active {
 }
 
 .knowledge .products:hover h4 {
-    color: #086e7d;
+    color: #333;
 }
 
 .system {
-    border-top: 2px solid #086e7d;
+    border-top: 2px solid #333;
     margin-top: 50px;
     padding-top: 40px;
     position: relative;
@@ -349,7 +385,7 @@ header .input-group button:active {
 }
 
 .system .info {
-    border: 1px solid #086e7d;
+    border: 1px solid #333;
     padding: 10px;
     border-radius: 5px;
 }
@@ -370,7 +406,7 @@ footer .top a {
 }
 
 footer .top a:hover {
-    color: #086e7d;
+    color: #333;
 }
 
 footer .top hr {
@@ -549,20 +585,16 @@ footer .bottom ul li {
 
 .content .bottom ul li a.active {
     border: none;
-    background-color: #086e7d;
+    background-color: #333;
 }
 
 .content .bottom ul li a:hover {
-    background-color: #086e7d;
+    background-color: #333;
 }
 
 main h1 {
     font-size: 30px;
     color: #555;
-}
-
-main .details .products{
-    padding: 10px;
 }
 
 .main__content {
@@ -630,7 +662,7 @@ main .top .breadcrumb {
 
 main .top .breadcrumb li a {
     text-decoration: none;
-    color: #086e7d;
+    color: #333;
 }
 
 .contact .name {
@@ -740,7 +772,7 @@ main .top .breadcrumb li a {
 }
 
 .main_product h1{
-    color: #086e7d;
+    color: #333;
     margin-bottom: 20px;
     font-size: 35px;
 }
@@ -749,7 +781,7 @@ main .top .breadcrumb li a {
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
-    color: #086e7d;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -761,7 +793,7 @@ main .top .breadcrumb li a {
 
 .product__attribute{
     display: flex;
-    color: #086e7d;
+    color: #333;
     margin-bottom: 20px;
 }
 
@@ -789,8 +821,8 @@ main .top .breadcrumb li a {
 }
 
 .product__attribute .list li .btn{
-    border: 1px solid #086e7d;
-    color: #086e7d;
+    border: 1px solid #333;
+    color: #333;
     width: 100%;
     padding: 5px;
     font-size: 14px;
@@ -798,7 +830,7 @@ main .top .breadcrumb li a {
 }
 
 .product__attribute .list li .btn:hover{
-    background-color: #086e7d;
+    background-color: #333;
     color: #fff;
 }
 
@@ -810,7 +842,7 @@ main .top .breadcrumb li a {
 
 output{
     font-weight: bold;
-    color: #086e7d;
+    color: #333;
 }
 
 .subtraction{
@@ -819,8 +851,8 @@ output{
 }
 
 .subtraction:hover{
-    border-color: #086e7d;
-    color: #086e7d;
+    border-color: #333;
+    color: #333;
 }
 
 .summation{
@@ -830,8 +862,8 @@ output{
 }
 
 .summation:hover{
-    border-color: #086e7d;
-    color: #086e7d;
+    border-color: #333;
+    color: #333;
 }
 
 .showNumber{
@@ -850,7 +882,7 @@ output{
 }
 
 .button-add button{
-    background-color: #086e7d;
+    background-color: #333;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -858,20 +890,20 @@ output{
     text-transform: uppercase;
     margin-left: 20px;
     font-weight: bold;
-    border: 1px solid #086e7d;
+    border: 1px solid #333;
 }
 
 .button-add button:hover{
     background-color: #fff;
-    color: #086e7d;
-    border: 1px solid #086e7d;
+    color: #333;
+    border: 1px solid #333;
 }
 
 .promotion{
     position: relative;
-    color: #086e7d;
+    color: #333;
     padding: 20px 20px 0;
-    border: 2px solid #086e7d;
+    border: 2px solid #333;
     border-radius: 5px;
     margin-top: 30px;
     text-align: center;
@@ -883,9 +915,9 @@ output{
     position: absolute;
     top: 0;
     text-transform: uppercase;
-    background-color: #086e7d;
+    background-color: #333;
     padding: 5px 10px;
-    color: #fec901;
+    color: #a1e611;
     font-weight: bold;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -903,8 +935,8 @@ output{
     font-weight: bold;
     margin-top: 15px;
     border-radius: 5px;
-    background-color: #086e7d;
-    color: #fec901;
+    background-color: #333;
+    color: #a1e611;
     border: none;
 }
 
@@ -919,13 +951,13 @@ output{
 .installment ul li{
     float: left;
     width: 49.5%;
-    background-color: #086e7d;
+    background-color: #333;
     margin-right: 1%;
     margin-bottom: 5px;
     border-radius: 5px;
     padding: 5px;
     text-align: center;
-    color: #fec901;
+    color: #a1e611;
 }
 
 .installment ul li:nth-child(2), 
@@ -935,8 +967,8 @@ output{
 
 .installment ul li:nth-child(3),
 .installment ul li:nth-child(4){
-    background-color: #fec901;
-    color: #086e7d;
+    background-color: #a1e611;
+    color: #333;
     font-weight: bold;
 }
 
@@ -948,8 +980,8 @@ output{
 }
 
 .product__order{
-    background-color: #fec901;
-    color: #086e7d;
+    background-color: #a1e611;
+    color: #333;
     border-radius: 5px;
     text-align: center;
     padding: 5px 5px 0;
@@ -967,7 +999,7 @@ output{
 .product_ads{
     margin-top: 10px;
     padding: 10px;
-    background-color: #fec901;
+    background-color: #a1e611;
     border-radius: 5px;
 }
 
@@ -997,7 +1029,7 @@ output{
     border-right: none;
     border-radius: 0;
     text-transform: uppercase;
-    color: #086e7d;
+    color: #333;
     font-weight: bold;
 }
 .nav-tabs .nav-item.show .nav-link,
@@ -1005,7 +1037,7 @@ output{
     border-left: none;
     border-right: none;
     border-radius: 0;
-    border-top: 1px solid #086e7d;
+    border-top: 1px solid #333;
     text-transform: uppercase;
     font-weight: bold;
     color: #3c3c3c;
@@ -1017,7 +1049,7 @@ output{
 }
 
 .specifications{
-    border: 2px solid #086e7d;
+    border: 2px solid #333;
     border-radius: 20px;
     padding: 20px;
     margin-top: 50px;
@@ -1026,8 +1058,8 @@ output{
 
 .specifications h3{
     position: absolute;
-    background-color: #086e7d;
-    color: #fec901;
+    background-color: #333;
+    color: #a1e611;
     padding: 5px 30px;
     top: 0;
     left: 50%;
@@ -1064,8 +1096,8 @@ output{
 }
 
 .specifications .more a, .agentSystem .more a{
-    background-color: #086e7d;
-    color: #fec901;
+    background-color: #333;
+    color: #a1e611;
     padding: 5px 20px;
     text-decoration: none;
     font-size: 16px;
@@ -1116,11 +1148,11 @@ output{
 }
 
 .agentSystem .posts:hover a{
-    color: #086e7d;
+    color: #333;
 }
 
 .agentSystem h3{
-    color: #086e7d;
+    color: #333;
     text-transform: uppercase;
 }
 
@@ -1146,7 +1178,7 @@ output{
 }
 
 .viewed h3, .similarProduct h3{
-    color: #086e7d;
+    color: #333;
     margin-bottom: 20px;
     font-size: 22px;
 }
@@ -1157,7 +1189,7 @@ output{
 }
 
 .viewed .owl-carousel img:hover, .similarProduct .owl-carousel img:hover{
-    border: 2px solid #086e7d;
+    border: 2px solid #333;
 }
 
 .comment__title{
@@ -1168,7 +1200,7 @@ output{
 
 .comment__title .title__text{
     text-transform: uppercase;
-    color: #fec901;
+    color: #a1e611;
     font-size: 30px;
     padding: 10px 20px;
     border-radius: 5px;
