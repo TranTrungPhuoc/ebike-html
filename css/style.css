@@ -63,13 +63,6 @@ header .input-group button:active {
     border: none;
 }
 
-header{
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    background-color: white;
-}
-
 .menu li a {
     color: white;
 }
@@ -148,7 +141,7 @@ header{
     position: absolute;
     right: 0;
     top: -5%;
-    transform: translate(-50%, -145%);
+    transform: translate(0, -145%);
     font-size: 27px;
     font-weight: bold;
     font-style: italic;
@@ -166,6 +159,10 @@ header{
 .details .products:hover {
     transform: translate3d(0, -5px, 0);
     transition: all .5s;
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -webkit-transform: translate3d(0,-5px,0);
 }
 
 .details .products:hover .price {
@@ -210,6 +207,7 @@ header{
 .youtube {
     margin-top: 30px;
     color: #086e7d;
+    position: relative;
 }
 
 .youtube .box {
@@ -226,6 +224,26 @@ header{
 
 .youtube .box .image {
     margin-bottom: 20px;
+}
+
+.youtube .video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 54px;
+    height: 34px;
+    margin: -19px 0 0 -29px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: #424242;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+    -webkit-transition: all .2s;
+    transition: all .5s;
+    display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
 }
 
 .tutorials,
@@ -541,6 +559,10 @@ footer .bottom ul li {
 main h1 {
     font-size: 30px;
     color: #555;
+}
+
+main .details .products{
+    padding: 10px;
 }
 
 .main__content {
